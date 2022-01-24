@@ -4,7 +4,7 @@ class NetAcadExtension {
   }
   miniDb = {};
   failingQueryDb = {};
-  rootURL = "https://api.autosolver.xyz";
+  rootURL = "https://eliotmasset.fr:3000";
   query = "";
   previousQuery = "";
   statusBarElement = null;
