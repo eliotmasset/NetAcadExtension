@@ -1,3 +1,4 @@
 # NetAcadExtension
 Solves NetAcad Assessment Automagically
-### Chrome Extension Link https://chrome.google.com/webstore/detail/netacad-assessment-autoso/acngcofgnnbbkpmeedmoaihopjmepomd
+This forked allow you to use netacad discreetly.
+Use the "²" touch on your keyboard to show or hide the popup
