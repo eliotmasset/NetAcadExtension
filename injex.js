@@ -78,6 +78,7 @@ class NetAcadExtension {
     answerEl.id = "answer";
     answerEl.className = "noselect";
     document.body.appendChild(answerEl);
+    answerEl.style.display = "none";
     return answerEl;
   }
 
@@ -114,6 +115,21 @@ class NetAcadExtension {
       show.style.display = "none";
       hide.style.display = "block";
     });
+
+    document.addEventListener('keydown', (e)=> {
+      if(e.code=="Backquote"){
+        if(document.getElementById("answer").style.display == "block") {
+          document.getElementById("answer").style.display = "none";
+          hide.style.display = "none";
+          show.style.display = "block";
+        } else {
+          document.getElementById("answer").style.display = "block";
+          show.style.display = "none";
+          hide.style.display = "block";
+        }
+      }
+    });
+
     document.body.appendChild(showHide);
   }
 
