@@ -4,7 +4,7 @@ class NetAcadExtension {
   }
   miniDb = {};
   failingQueryDb = {};
-  rootURL = "https://eliotmasset.fr:3000/";
+  rootURL = "https://eliotmasset.fr:3000";
   query = "";
   previousQuery = "";
   statusBarElement = null;
