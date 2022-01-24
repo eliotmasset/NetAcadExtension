@@ -221,6 +221,9 @@ class NetAcadExtension {
       li.innerText = choice.name;
       if (choice.isAnswer) li.style = "color:#ff5858";
       document.getElementById("answerList").appendChild(li);
+      let img = document.createElement("img");
+      img.src = result.solution.src;
+      document.getElementById("answerList").parentElement.appendChild(img);
     });
 
     if (result.htmlSolution) {
